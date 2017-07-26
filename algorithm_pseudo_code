@@ -1,0 +1,21 @@
+Defining the Problem
+To solve this problem, we are going to focus into three separate components:
+
+ 
+Input: wooden fence cost, chain-link fence,gates cost,tax rate,user inputs
+Output:  display total cost, tax amount and  final cost.
+Processing Steps: calculating perimeter,computing total cost, computing tax amount and final cost
+ 
+ *Pseudo code
+ * Begin
+ Initialize the object "scanner"
+ prompt user yardLength,yardWidth and totalGates
+ Store inputs from user
+ Calculate perimeter =2*(yardWidth +yardLength)
+ prompt user totalGates
+ Get input from user
+ Calculate the total cost =woodenFence * perimeter + totalGates * gateCost
+ Calculate tax amount=total cost *tax rate
+ Calculate final Cost =total cost +tax amount +permitFee
+ print the final cost
+ End
